@@ -13,8 +13,8 @@ runhaskell sourceFile.hs
 
 ## Use the Interactive Haskell Shell
 ```sh
-ghci
-```
-```sh
-:load main
+>ghci
+Prelude> :load main
+*Main> test
+"You are ready to go!"
 ```
