@@ -1,5 +1,5 @@
 # HaskellA
-## run
+## Run a source file
 ```sh
 ghc -o executableFile sourceFile.hs
 ```
@@ -9,4 +9,12 @@ ghc -o executableFile sourceFile.hs
 Alternatively you can use :
 ```sh
 runhaskell sourceFile.hs
+```
+
+## Use the Interactive Haskell Shell
+```sh
+ghci
+```
+```sh
+:load main
 ```
