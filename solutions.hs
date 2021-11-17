@@ -2,6 +2,9 @@ module Main where
 
 import Data.List
 
+
+main = putStrLn "Haskell A"
+
 test = "You are ready to go!"
 
 {- 
@@ -45,16 +48,11 @@ Return a list of sexy primes less than n.
 -}
 sexyPrimes n =
   separatedPrimes (\(x,y) -> x + 6 == y) n
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
+
+{-
+  Return a list of all even numbers (infinite even numbers)
+  While testing be sure to use 
+  *Main> take n evenNumbers 
+   where n is the number of elements you want in the list 
+-}
+evenNumbers = map (*2) [1..]
