@@ -9,7 +9,7 @@ Return list of prime numbers less than or equal to n.
   n (Int): integer such that all primes are less than n
   return (Data.List): list of primes
 -}
-primes n = 
+--primes n = 
   -- your code
 
 {- 
@@ -19,15 +19,15 @@ predicate function f evaluates the primes as True.
   n (Int): integer such that all primes are less than n
   return (Data.List): list of tuples of primes
 -}
-separatedPrimes f n =
-  filter f (zip (primes n) (tail (primes n)))
+--separatedPrimes f n =
+--  filter f (zip (primes n) (tail (primes n)))
 
 {- 
 Return a list of twin primes less than n.
   n (Int): integer such that all primes are less than n
   return (Data.List): list of tuples of twin primes
 -}
-twinPrimes n = 
+--twinPrimes n = 
   -- your code
 
 {- 
@@ -35,7 +35,7 @@ Return a list of cousin primes less than n.
   n (Int): integer such that all primes are less than n
   return (Data.List): list of tuples of twin primes
 -}
-cousinPrimes n = 
+--cousinPrimes n = 
   -- your code
 
 {- 
@@ -43,5 +43,7 @@ Return a list of sexy primes less than n.
   n (Int): integer such that all primes are less than n
   return (Data.List): list of tuples of twin primes
 -}
-sexyPrimes n = 
+--sexyPrimes n = 
   -- your code
+
+main = putStrLn "Hello World!"
