@@ -2,6 +2,9 @@ module Main where
 
 import Data.List
 
+
+main = putStrLn "Haskell A"
+
 test = "You are ready to go!"
 
 {- 
@@ -9,8 +12,8 @@ Return list of prime numbers less than or equal to n.
   n (Int): integer such that all primes are less than n
   return (Data.List): list of primes
 -}
-primes n = 
-  -- your code
+primes n =
+  --TODO 1
 
 {- 
 Return a list of pairs of primes less than n such that the 
@@ -27,31 +30,29 @@ Return a list of twin primes less than n.
   n (Int): integer such that all primes are less than n
   return (Data.List): list of tuples of twin primes
 -}
-twinPrimes n = 
-  -- your code
+twinPrimes n =
+  ---TODO 2
 
 {- 
 Return a list of cousin primes less than n.
   n (Int): integer such that all primes are less than n
   return (Data.List): list of tuples of twin primes
 -}
-cousinPrimes n = 
-  -- your code
+cousinPrimes n =
+  --TODO 3
 
 {- 
 Return a list of sexy primes less than n.
   n (Int): integer such that all primes are less than n
   return (Data.List): list of tuples of twin primes
 -}
-sexyPrimes n = 
-  -- your code
+sexyPrimes n =
+  --TODO 4
 
 {-
   Return a list of all even numbers (infinite even numbers)
   While testing be sure to use 
   *Main> take n evenNumbers 
-   where n is the number of elements you want in the list 
+  format where n is the number of elements you want in the list 
 -}
-evenNumbers =  --your code
-
-main = putStrLn "Hello World!"
+evenNumbers = --TODO 5
