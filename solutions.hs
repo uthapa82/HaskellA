@@ -32,24 +32,24 @@ separatedPrimes f n =
   )
 
 {- 
-Return a list of twin primes less than n.
-  n (Int): integer such that all primes are less than n
+Return a list of twin primes less than or equal to n .
+  n (Int): integer such that all primes are less than or equal to n.
   return (Data.List): list of tuples of twin primes
 -}
 twinPrimes n =
   separatedPrimes (\(x,y) -> x + 2 == y) n
 
 {- 
-Return a list of cousin primes less than n.
-  n (Int): integer such that all primes are less than n
+Return a list of cousin primes less or equal to n.
+  n (Int): integer such that all primes are less or equal to n.
   return (Data.List): list of tuples of twin primes
 -}
 cousinPrimes n =
   separatedPrimes (\(x,y) -> x + 4 == y) n
 
 {- 
-Return a list of sexy primes less than n.
-  n (Int): integer such that all primes are less than n
+Return a list of sexy primes less or equal to n.
+  n (Int): integer such that all primes are less or equal to n.
   return (Data.List): list of tuples of twin primes
 -}
 sexyPrimes n =
