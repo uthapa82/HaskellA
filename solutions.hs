@@ -1,7 +1,7 @@
 module Main where
 
+import Data.Function (on)
 import Data.List
-
 
 main = putStrLn "Haskell A"
 
