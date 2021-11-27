@@ -16,7 +16,7 @@ primes n =
   --TODO 1
 
 {- 
-Return a list of pairs of primes less than n such that the 
+Return a list of pairs of primes less than or equal to n such that the 
 predicate function f evaluates the primes as True.
   f (Function) function that takes integer tuple and returns boolean. 
   n (Int): integer such that all primes are less than n
@@ -32,24 +32,24 @@ separatedPrimes f n =
   )
 
 {- 
-Return a list of twin primes less than n.
-  n (Int): integer such that all primes are less than n
+Return a list of twin primes less than  or equal to n.
+  n (Int): integer such that all primes are less than or equal to n
   return (Data.List): list of tuples of twin primes
 -}
 twinPrimes n =
   ---TODO 2
 
 {- 
-Return a list of cousin primes less than n.
-  n (Int): integer such that all primes are less than n
+Return a list of cousin primes less than or equal to n.
+  n (Int): integer such that all primes are less than or equal to n
   return (Data.List): list of tuples of twin primes
 -}
 cousinPrimes n =
   --TODO 3
 
 {- 
-Return a list of sexy primes less than n.
-  n (Int): integer such that all primes are less than n
+Return a list of sexy primes less than or equal to n.
+  n (Int): integer such that all primes are less than or equal to n
   return (Data.List): list of tuples of twin primes
 -}
 sexyPrimes n =
