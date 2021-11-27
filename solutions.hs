@@ -23,7 +23,13 @@ predicate function f evaluates the primes as True.
   return (Data.List): list of tuples of primes
 -}
 separatedPrimes f n =
-  filter f (zip (primes n) (tail (primes n)))
+  sortBy (compare `on` fst) (
+    filter f (
+      (zip (primes n) (drop 1 (primes n))) ++ 
+      (zip (primes n) (drop 2 (primes n))) ++
+      (zip (primes n) (drop 3 (primes n)))
+    )
+  )
 
 {- 
 Return a list of twin primes less than n.
